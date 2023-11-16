@@ -1,0 +1,385 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cora {
+    color: red; 
+    
+    float: right;
+    position: fixed;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaedf0;
+    
+}
+
+ul {
+list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.g {
+    padding: 37px;
+}
+#encabezado {
+    display: flex;
+    background-color: rgb(4, 18, 59, 90%);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: blueviolet;
+    font-size: 22px;
+    gap: 1rem;
+    margin-right: 5em;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    margin-right: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+#seccion-principal {
+    position: static;
+    background-color: #bdbdbd;
+}
+
+header a i {
+    color: blue;
+    font-size: 23px;
+}
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.seccion-2 img {
+    width: 100%;
+}
+footer {
+    background-color: blueviolet;
+    width: 100%;
+}
+footer div {
+    padding: 1em;
+}
+.a {
+    color: aliceblue;
+    cursor: pointer;
+    padding: 0%;
+}
+main {
+    display: block;
+}
+.acerca-de {
+    text-align: right;
+    margin-left: 1em; 
+}
+h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+img {
+    padding: 0.5em;
+}
+.parrafo2 {
+    width: 30em;
+    word-wrap: break-word;
+    font-size: 20px;
+    text-align: center;
+}
+.p1 {
+    width: 30em;
+    word-wrap: break-word;
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.text {
+    color: aliceblue;    
+}
+.primary {
+    outline: none;
+    display:flex;
+    justify-content: space-around;
+    flex-grow: 3;
+    transform: none;
+}
+.imag {
+    width: 20em;
+    border-radius: 30px;
+}
+.text1 {
+    display: block;
+    align-items: stretch;
+    word-wrap: break-word;
+}
+
+.secund{
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.t3 {
+    color: blue;
+}
+.t4 {
+    color: brown;
+    font-weight: bold;
+}
+.navbar ul.menu li a:hover {
+    color: #ff0000;
+  }
+
+/*Agg lo nuevo*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+ #alertas {
+    color: red;
+  }
+
+.foot {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+    .primary {
+        outline: none;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;   
+        background-color: rgb(137, 254, 195);
+        }
+    .seccion-1 {
+        background-color: rgb(125, 252, 252);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .p {
+        width: auto;
+       }
+    #encabezado {
+        background-color: rgb(99, 195, 39,90%);
+        
+    }
+    header nav ul {
+        color: rgb(255, 255, 255);
+        display: none;
+        gap: 1.1em;
+        margin-right: 4em;
+    }
+    .checkbtn {
+        font-size: 25px;
+        color: rgb(14, 4, 56);
+        float: right;
+        margin-right: 1.5em;
+        cursor: pointer;
+        display: block;
+    }
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(1, 0, 59);
+        text-align: center;
+
+        top: 76px;
+        left: 100%;
+        transition: 2s;
+    }
+    #check:checked ~ ul {
+        left: 0%;
+        display: block;
+
+    }
+    nav ul li {
+        display: block;
+        margin: 50 px 0;
+        line-height: 30px;
+        padding: 2%;
+
+    }
+    nav ul li a {
+        font-size: 20px;
+        padding: 3em;
+    }
+    #check:checked ~ .checkbtn {
+        color: rgb(232, 8, 202);
+    }
+    
+    .navbar.active {
+        height: 100vh;
+    }
+    
+    .navbar.active ul.menu {
+        opacity: 1;
+    }
+    a {
+        padding: 0%;
+    }
+}
+ /* ------------- Para Pantallas de más de 700px ------------- */
+ @media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"],
+    .form-row input[type="email"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+    .form-row textarea {
+    width: 250px;
+    }
+    .form-row button {
+        margin-left: 120px;
+    }
+}
